@@ -105,6 +105,12 @@ h1 {
   display: flex;
 }
 
+.row > small {
+  transform: translateY(25%);
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+
 .screen {
   background: #fff;
   height: 70px;
@@ -115,7 +121,7 @@ h1 {
 }
 
 p.text {
-  margin: 5px 0;
+  margin: 35px 0;
 }
 
 p.text span {
