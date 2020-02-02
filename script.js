@@ -10,6 +10,8 @@ let ticketPrice = +movieSelect.value;
 function upadateSelectedCount() {
   const selectedSeats = document.querySelectorAll('.row .seat.selected');
 
+  const seatsIndex = [...selectedSeats];
+
   const selectedSeatsCount = selectedSeats.length;
   count.innerText = selectedSeatsCount;
   total.innerText = selectedSeatsCount * ticketPrice;
