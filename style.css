@@ -178,7 +178,7 @@ p.text span {
     background-color: #fff;
     border: 0;
     border-radius: 5px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin-left: 10px;
     padding: 5px 15px 5px 15px;
     -moz-appearance: none;
@@ -189,15 +189,15 @@ p.text span {
   .container {
     display: grid;
     perspective: 1000px;
-    margin-left: 5rem;
+    margin-left: 3rem;
     margin-bottom: 1rem;
   }
 
   .seat {
     background-color: #444451;
-    height: 2vh;
-    width: 4vw;
-    margin: 5px;
+    height: 2.5vh;
+    width: 5vw;
+    margin: 3px;
     border-radius: 3px;
   }
 
@@ -229,7 +229,8 @@ p.text span {
 
   .showcase {
     background: rgba(0, 0, 0, 0.1);
-    padding: 5px 10px;
+    padding: 5px 5px;
+    font-size: 1rem;
     border-radius: 5px;
     color: #777;
     list-style-type: none;
@@ -254,15 +255,15 @@ p.text span {
 
   .row > small {
     transform: translateY(25%);
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     margin-right: 5px;
   }
 
   .row.foot-row > small {
-    transform: translate(22px, 5px);
-    padding-left: 11px;
-    padding-right: 18px;
-    font-size: 0.8rem;
+    transform: translate(15px, 5px);
+    padding-left: 10px;
+    padding-right: 8px;
+    font-size: 0.7rem;
   }
 
   .row.foot-row > small:nth-of-type(2) {
