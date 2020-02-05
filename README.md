@@ -6,6 +6,10 @@
 
 - ES6 (Arrow function, spread operator)
 - Multiple Strategies for DOM manipulation
-- Advanced CSS Selectors
+- Advanced CSS Selectors / Pseudoclasses
 - Cool UI Approach ;)
 - Local Storage
+
+## Snapshot
+
+
