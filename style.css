@@ -42,6 +42,7 @@ h1 {
 }
 
 .container {
+  display: grid;
   perspective: 1000px;
   margin-bottom: 3px;
 }
@@ -109,6 +110,21 @@ h1 {
   transform: translateY(25%);
   font-size: 0.8rem;
   margin-right: 5px;
+}
+
+.row.foot-row > small {
+  transform: translate(22px, 5px);
+  padding-left: 11px;
+  padding-right: 18px;
+  font-size: 0.8rem;
+}
+
+.row.foot-row > small:nth-of-type(2) {
+  margin-right: 20px;
+}
+
+.row.foot-row > small:nth-of-type(6) {
+  margin-right: 20px;
 }
 
 .screen {
